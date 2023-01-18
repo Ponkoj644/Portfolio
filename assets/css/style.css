@@ -1,0 +1,90 @@
+/* Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+
+/* Base CSS*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --sectioncolor: red;
+}
+/* Basic CSS */
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: #e2eaf7;
+}
+
+.theme-button {
+  /* display: block; */
+  background: rgb(150, 158, 44);
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: #fff;
+  text-transform: capitalize;
+  letter-spacing: 1.5px;
+  transition: 0.3s;
+}
+.theme-button:hover {
+  background: transparent;
+  border: 1px solid rgb(150, 158, 44);
+  color:#121212;
+}
+/* Header area CSS */
+.header-area {
+  /* margin-top: 15px; */
+}
+
+.header-area .navbar-nav {
+  padding: 10px;
+}
+
+.header-area .navbar-nav .nav-item {
+  margin-left: 25px;
+  padding: 5px 10px;
+
+  /* font-size: 18px; */
+  /* background-color: rgb(184, 143, 143); */
+}
+.navbar-nav .nav-item .nav-link {
+  text-transform: capitalize;
+  font-weight: 500;
+  color: #121212;
+}
+
+/* Hero area CSS */
+.hero-area {
+  padding: 100px 0;
+  height: 90vh;
+}
+.hero-text h1 {
+  font-size: 50px;
+  font-weight: 700;
+}
+.hero-text h1 span {
+  display: inline-block;
+  color: rgb(150, 158, 44);
+}
+.hero-text p {
+  /* margin: 0; */
+  padding: 10px 0;
+  font-size: 20px;
+  text-transform: capitalize;
+}
+.hero-text a{
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.hero-image{
+  width: 90% !important;
+}
+
+.hero-image img{
+  border-radius: 50%;
+}
